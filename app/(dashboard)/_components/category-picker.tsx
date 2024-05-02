@@ -45,7 +45,7 @@ const CategoryPicker = ({type}: Props) => {
         }}
         >
  <CommandInput placeholder="Search category..." />
- <CreateCategoryDialog />
+ <CreateCategoryDialog type={type} />
         </Command>
         
       </PopoverContent>
